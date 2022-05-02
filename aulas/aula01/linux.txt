@@ -1,0 +1,29 @@
+Linux é um termo popularmente empregado para se referir a sistemas operativos (português europeu) ou 
+sistemas operacionais (português brasileiro) que utilizam o Kernel Linux.[5] O núcleo 
+(ou kernel, em Inglês) foi desenvolvido pelo programador finlandês Linus Torvalds, 
+inspirado no sistema Minix. O seu código-fonte está disponível sob a licença GPL (versão 2) para 
+que qualquer pessoa o possa utilizar, estudar, modificar e distribuir livremente de acordo com os termos 
+da licença.[6] A Free Software Foundation e seus colaboradores recomenda[7] o nome GNU/Linux para 
+descrever o sistema operacional, como resultado de uma disputa controversa entre membros da comunidade 
+de software livre e código-aberto.[8][9]
+
+Inicialmente desenvolvido e utilizado por grupos de entusiastas em computadores pessoais, os sistemas 
+operativos (português europeu) ou sistemas operacionais (português brasileiro) com núcleo Linux passaram 
+a ter a colaboração de grandes empresas como IBM, Sun Microsystems, Hewlett-Packard (HP), Red Hat, 
+Novell, Oracle, Google, Mandriva, Microsoft e Canonical.[10]
+
+O desenvolvimento do Linux é um dos exemplos mais proeminentes de colaboração de software livre e de 
+código aberto. O código-fonte pode ser usado, modificado e distribuído - com fins comerciais ou 
+não - por qualquer um, respeitando as licenças, como a GNU General Public License versão 2, 
+devolvendo o código desenvolvido de volta para o desenvolvimento do núcleo.
+
+Normalmente, o Linux é encontrado em uma distribuição Linux, seja para um computador ou para 
+um servidor. Algumas distribuições Linux populares[5] incluem Arch Linux, CentOS, Debian, 
+Fedora Linux, Linux Mint, openSUSE, Ubuntu, além de distribuições focadas para usuários corporativos, 
+como o Red Hat Enterprise Linux ou o SUSE Linux Enterprise Server. Uma distribuição Linux inclui o 
+núcleo Linux, bibliotecas e utilidades, além de aplicações, como a suíte de escritório LibreOffice, 
+um navegador de internet (normalmente Mozilla Firefox), entre outras aplicações.
+
+https://pt.wikipedia.org/wiki/Linux
+
+
