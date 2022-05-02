@@ -5,12 +5,12 @@ inspirado no sistema Minix. O seu código-fonte está disponível sob a licença
 que qualquer pessoa o possa utilizar, estudar, modificar e distribuir livremente de acordo com os termos 
 da licença.[6] A Free Software Foundation e seus colaboradores recomenda[7] o nome GNU/Linux para 
 descrever o sistema operacional, como resultado de uma disputa controversa entre membros da comunidade 
-de software livre e código-aberto.[8][9]
+de software livre e código-aberto.
 
 Inicialmente desenvolvido e utilizado por grupos de entusiastas em computadores pessoais, os sistemas 
 operativos (português europeu) ou sistemas operacionais (português brasileiro) com núcleo Linux passaram 
 a ter a colaboração de grandes empresas como IBM, Sun Microsystems, Hewlett-Packard (HP), Red Hat, 
-Novell, Oracle, Google, Mandriva, Microsoft e Canonical.[10]
+Novell, Oracle, Google, Mandriva, Microsoft e Canonical.
 
 O desenvolvimento do Linux é um dos exemplos mais proeminentes de colaboração de software livre e de 
 código aberto. O código-fonte pode ser usado, modificado e distribuído - com fins comerciais ou 
