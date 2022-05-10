@@ -1,9 +1,6 @@
 # web1-22
 Desenvolvimento Web I
 
-## Chamada
-- https://docs.google.com/spreadsheets/d/1zxM8DMqK_2DQ1UGWHIFUEBMvwhNAHXU306rAd14awe0/edit?usp=sharing
-
 ## Configuração do ambiente
 - Visual studio code
 
