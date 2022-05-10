@@ -1,6 +1,9 @@
 # web1-22
 Desenvolvimento Web I
 
+# Email para envio das atividades:
+- felippe.scheidt@ifpr.edu.br
+
 ## Configuração do ambiente
 - Visual studio code
 
