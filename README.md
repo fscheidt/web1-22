@@ -7,6 +7,7 @@ Desenvolvimento Web I
 - Atividades assíncronas: lista de exercícios slide 2, sobre listas ordenadas, sublistas
 - ver pasta /aulas/aula02
 - enviar para: felippe.scheidt@ifpr.edu.br
+- entrega: 24/05
 
 ## Configuração do ambiente
 - Visual studio code
