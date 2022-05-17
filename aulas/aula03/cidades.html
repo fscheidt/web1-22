@@ -1,22 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <!-- muda a codificação dos caracteres para
+    utf-8 
+    -->
+    <meta charset="utf-8">
     <title>Roteiros de viagens</title>
     <style>
         .roteiros{
             /* regra css sem o nome da tag, pode
             ser utilizada em varias tags
             */
-            border: 1px solid black;
-            border-spacing: 5px;
+            width: 70%;
+            
+            /* width: 400px; */
+            border: 1px solid #ccc;
+            /* define o espaço entre as celulas */
+            /* border-spacing: 5px; */
+
+            /* remove o espaço entre as celulas */
+            border-collapse: collapse;
         }
         .roteiros td{ 
             border: 1px solid #ccc;
             text-align: center;
+            padding: 20px 0px;
             
         }
-        .roteiros tr{
-            
+        tr:nth-child(even){
+            background: lightcoral;
+        }
+
+        th {
+            background: aquamarine;
+        }
+        .roteiros caption{
+            color: royalblue;
+            font-weight: bold;
         }
         main{
             width: 80%;
@@ -32,6 +52,9 @@
     <h1>Roteiros de viagens</h1>
 
     <table class="roteiros">
+        
+        <caption>Roteiros disponíveis</caption>
+
         <!-- tr: inicia uma linha -->
         <tr>
             <th> <!-- th: cabeçalho da tabela -->
@@ -44,6 +67,18 @@
         <tr>
             <!-- td: inicia a coluna -->
             <td>Paris</td> <td>França</td>
+        </tr>
+        <tr> 
+            <td>Madrid</td> <td>Espanha</td>
+        </tr>
+        <tr> 
+            <td>Madrid</td> <td>Espanha</td>
+        </tr>
+        <tr> 
+            <td>Madrid</td> <td>Espanha</td>
+        </tr>
+        <tr> 
+            <td>Madrid</td> <td>Espanha</td>
         </tr>
         <tr> 
             <td>Madrid</td> <td>Espanha</td>
