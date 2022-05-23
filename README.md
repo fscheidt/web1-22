@@ -3,12 +3,15 @@
 - Moodle (fazer inscrição): https://ava.ifpr.edu.br/enrol/index.php?id=8670
 
 ## Sábados letivos:
-
-### 14/05
-- Atividades assíncronas: lista de exercícios slide 2, sobre listas ordenadas, sublistas
-- ver pasta /aulas/aula02
-- enviar para: felippe.scheidt@ifpr.edu.br
-- entrega: 24/05
+<details>
+<summary><b>14/05 ✔</b></summary>
+Atividades assíncronas: 
+<ul>
+<li>lista de exercícios slide 2, sobre listas ordenadas, sublistas
+<li>ver pasta /aulas/aula02
+<li>enviar para: felippe.scheidt@ifpr.edu.br
+<li>entrega: 24/05
+</details>
 
 ## Ambiente de desenvolvimento
 
