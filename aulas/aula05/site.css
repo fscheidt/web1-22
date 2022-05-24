@@ -1,0 +1,31 @@
+div{
+    border: 1px solid red;
+}
+.container{
+    border: 1px solid rosybrown;
+}
+.menu{
+    float: left;
+    width: 20%;
+    margin-right: 5px;
+    padding: 5px;
+}
+.menu a{
+    /* quebra a linha - tipo um "br" */
+    display: block;
+}
+.conteudo{
+    float:left;
+    width: 70%;
+    /* 1) define cada uma das margens internas: */
+    /* padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 50px; */
+
+    /* 2) define um para todos: */
+    padding: 10px; /* topo, direita, fundo, esquerda*/
+    
+    /* 3) define cada margen numa linha: */
+    padding: 40px 30px 50px 20px;
+}
