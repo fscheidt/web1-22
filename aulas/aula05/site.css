@@ -15,7 +15,7 @@ div{
     display: block;
 }
 .conteudo{
-    float:left;
+    float:right;
     width: 70%;
     /* 1) define cada uma das margens internas: */
     /* padding-left: 20px;
@@ -25,7 +25,25 @@ div{
 
     /* 2) define um para todos: */
     padding: 10px; /* topo, direita, fundo, esquerda*/
-    
+
     /* 3) define cada margen numa linha: */
     padding: 40px 30px 50px 20px;
+}
+
+.conteudo span{
+    background-color: yellow;
+    /* display: block; */
+    display: inline;
+}
+/* .titulo span{
+    background-color: yellow;
+} */
+.italico{
+    font-style: italic;
+}
+.destaque{
+    background-color: lightgreen;
+}
+.destaque:hover{
+    display: none; /* esconde */
 }
