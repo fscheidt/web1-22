@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 2 colunas - grid</title>
+
+    <style>
+        .container{
+            display: grid;
+            /* define as regiões do site (areas de conteudo)  */
+            grid-template-areas: 
+            "tituloArea tituloArea"
+            "menuArea conteudoArea";
+        }
+        div.titulo{
+            grid-area: tituloArea;
+        }
+        div.menu{ 
+            grid-area: menuArea;
+        }
+        div.conteudo{
+            grid-area: conteudoArea;
+        }
+        div{ border: 1px solid red;}
+    </style>
+
+</head>
+<body>
+<!-- layout 2 colunas-->
+<div class="container">
+
+    <div class="titulo">
+        <h1>Título do <span class="destaque italico">site</span></h1>
+    </div>
+    <div class="menu">
+        <h2>Menu</h2>
+        <a href="#">Opção 1</a>
+        <a href="#">Opção 2</a>
+        <a href="#">Opção 3 <span class="destaque">Spam!</span></a>
+    </div>
+    <div class="conteudo">
+        <h2>Conteúdo</h2>
+        <p>
+            <span>Lorem</span> ipsum, dolor sit amet consectetur adipisicing elit. Ducimus animi ipsa inventore ipsum, quasi doloribus, sed autem harum omnis quaerat facere eveniet, accusamus esse ratione ullam neque placeat necessitatibus eligendi?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed amet aspernatur nam quo qui? Accusantium recusandae, aut cupiditate natus, nam ipsa ad ullam repellat cum, cumque nulla repellendus deserunt aperiam.
+        </p>
+    </div>
+</div>
+    
+</body>
+</html>
