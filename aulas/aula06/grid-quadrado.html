@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            /* ocupa 100% */
+            /* display: grid; */
+
+            border: 2px solid maroon;          
+            
+            /* ocupa so o tamanho dos elementos*/
+            display: inline-grid; 
+            grid-template-columns: 100px 100px;
+        }
+        .container p{
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>01</p>
+        <p>02</p>
+        <p>03</p>
+        <p>04</p>
+    </div>
+</body>
+</html>
