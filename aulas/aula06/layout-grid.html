@@ -12,6 +12,8 @@
             grid-template-areas: 
             "tituloArea tituloArea"
             "menuArea conteudoArea";
+            grid-auto-columns: 20% 1fr;
+            gap: 20px; /* espaçamento entre as divs */
         }
         div.titulo{
             grid-area: tituloArea;
@@ -19,10 +21,22 @@
         div.menu{ 
             grid-area: menuArea;
         }
-        div.conteudo{
-            grid-area: conteudoArea;
+        div.menu a{
+            display: block;
         }
         div{ border: 1px solid red;}
+        div.conteudo{
+            grid-area: conteudoArea;
+            border: 3px solid green;
+        }
+        div.feed{
+            background-color: antiquewhite;
+            display: grid;
+            grid-template-columns: 60% 1fr;
+        }
+        div.feed img{
+            width: 90%;
+        }
     </style>
 
 </head>
@@ -40,13 +54,24 @@
         <a href="#">Opção 3 <span class="destaque">Spam!</span></a>
     </div>
     <div class="conteudo">
-        <h2>Conteúdo</h2>
-        <p>
-            <span>Lorem</span> ipsum, dolor sit amet consectetur adipisicing elit. Ducimus animi ipsa inventore ipsum, quasi doloribus, sed autem harum omnis quaerat facere eveniet, accusamus esse ratione ullam neque placeat necessitatibus eligendi?
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed amet aspernatur nam quo qui? Accusantium recusandae, aut cupiditate natus, nam ipsa ad ullam repellat cum, cumque nulla repellendus deserunt aperiam.
-        </p>
+
+        <div class="feed">
+            <div class="info">
+                <h2>Conteúdo</h2>
+                <p>
+                    <span>Lorem</span> ipsum, dolor sit amet consectetur adipisicing elit. Ducimus animi ipsa inventore ipsum, quasi doloribus, sed autem harum omnis quaerat facere eveniet, accusamus esse ratione ullam neque placeat necessitatibus eligendi?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed amet aspernatur nam quo qui? Accusantium recusandae, aut cupiditate natus, nam ipsa ad ullam repellat cum, cumque nulla repellendus deserunt aperiam.
+                </p>
+            </div>
+            <div>
+                <img src="image.png">
+            </div>
+
+        </div>
+
+
     </div>
 </div>
     
