@@ -14,10 +14,10 @@
       grid-template-columns: 100px 1fr;
       gap: 10px;
       padding: 20px;
-      color: #cffbcf;
+      background: #cffbcf;
     }
     .formulario button{
-      grid-column: 1/3;
+      grid-column: 1/2;
     }
     label{
       justify-self: right;
@@ -29,26 +29,26 @@
 
     <!-- Ler o nome do usuário -->
     <form class="formulario">
-      <label>Nome:</label>
+      <label>Nome</label>
       <input name="nome" type="text" required autocomplete="off">
 
-      <label>Sobrenome:</label>
+      <label>Sobrenome</label>
       <input name="sobrenome" type="text" 
       required maxlength="5">
 
-      <label>Senha:</label>
+      <label>Senha</label>
       <input name="senha" type="password">
 
-      <label>Data Nasc.:</label>
+      <label>Data Nasc</label>
       <input type="date">
 
-      <label>Idade:</label>
+      <label>Idade</label>
       <input type="number" min="5" max="50">
 
-      <label>Email:</label>
+      <label>Email</label>
       <input type="email" placeholder="somente email pessoal">
 
-      <label>Estado:</label>
+      <label>Estado</label>
       <select>
         <option>--Selecione o estado--</option>
         <option>PR</option>
@@ -56,7 +56,7 @@
         <option>SC</option>
       </select>
 
-      <label>sua opinião:</label>
+      <label>sua opinião</label>
       <div>
         <label>
           <input name="nota" type="radio">Bom
@@ -69,8 +69,8 @@
         </label>
       </div>
 
-      <label>Selecione os generos</label>
-      <div contenteditable="true">
+      <label>Generos</label>
+      <div>
         <label>
           <input name="nota" type="checkbox">Drama
         </label>
@@ -83,7 +83,7 @@
       </div>
 
       <label>Pontos fortes</label>
-      <textarea cols="60" rows="40"></textarea>
+      <textarea cols="60" rows="10"></textarea>
 
       <button>Enviar</button>
     </form>
