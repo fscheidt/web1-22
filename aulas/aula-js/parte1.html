@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introdução ao JavaScript</title>
+  <style>
+    h1{ color: red; }
+  </style>
+  <script>
+
+    document.write("Olá <br> a data de hoje: ");
+    let data = new Date().toLocaleString('pt-br');
+    document.write(data);
+    alert("Hoje é: " + data);
+    let somenteData = 
+        new Date().toLocaleDateString();
+
+    let usuario = "Felippe";
+    document.write("<br>seja bem vindo " + usuario);
+    
+    let anoAtual = 2022;
+    let tempoParaAposentar = 3;
+    let anoFinal = anoAtual + tempoParaAposentar;
+
+    document.write('<br>Vc se aposenta em: ' + anoFinal);
+
+    let resposta = confirm("Deseja sair?");
+    if(resposta==true){
+      alert("adios!");
+    }else{
+      alert("obrigado pela confianca!");
+    }
+
+    let idade = prompt("Qual a sua idade");
+    if(idade < 18 || idade > 80 ){
+      alert('Acesso negado!');
+    }else{
+      alert('Tudo certo!');
+    }
+
+
+  </script>
+</head>
+<body>
+  <h1>Título</h1>
+
+  
+</body>
+</html>
