@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<h1>Preencha seus dados</h1>
+<div>
+  <label>None:
+    <input type="text" id="nome">
+  </label>
+  <label>Sobrenome:
+    <input type="text" id="sobrenome"> 
+  </label>
+  <button 
+      onclick="validar()">
+      Enviar
+  </button>
+
+  <p id="mensagem"></p>
+
+  <!-- Le o valor do produto, calcula 10% desconto -->
+  <!-- apresenta o resultado na tela (no html) -->
+  <hr/>
+  
+  <h2>Exercicio desconto:</h2>
+
+  Valor do produto: <input type="text"><br>
+  <button>Calcula desconto</button>
+
+
+</div>
+<script>
+function desconto(){
+
+}
+function validar(){
+  // alert("Validando os dados...");
+
+  // input nome:
+  let inputNome = document.querySelector("#nome");
+  let nome = inputNome.value;
+
+  // => document: objeto do javascript que representa 
+  // a pagina
+  // => querySelector: metodo que seleciona uma tag
+  let inputSobre = document.querySelector("#sobrenome");
+  let sobrenome = inputSobre.value;
+
+  let mensagem = 
+    `Seja bem vindo: ${sobrenome}, ${nome}`;
+  
+  let mensagemEl = document.querySelector('#mensagem');
+
+  // textContent => Atribui um texto para o <p id='mensagem'>
+  mensagemEl.textContent = mensagem;
+
+  // alert(mensagem);
+  
+  //alert('Seja bem vindo: ' 
+    //  + inputSobre.value + ' ' + inputNome.value);
+
+  // para fazer redirecionamento:
+  // location.href = 'https://www.google.com';
+}
+</script>
+</body>
+</html>
