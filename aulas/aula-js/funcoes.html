@@ -10,6 +10,9 @@
 <h1>Preencha seus dados</h1>
 <div>
   <label>None:
+    <!-- caminho até chegar na input #nome:
+      html > body > div > label > input
+    -->
     <input type="text" id="nome">
   </label>
   <label>Sobrenome:
@@ -20,7 +23,8 @@
       Enviar
   </button>
 
-  <p id="mensagem"></p>
+  <p id="mensagem" 
+  onmouseover="document.bgColor='red'"></p>
 
   <!-- Le o valor do produto, calcula 10% desconto -->
   <!-- apresenta o resultado na tela (no html) -->
@@ -28,14 +32,24 @@
   
   <h2>Exercicio desconto:</h2>
 
-  Valor do produto: <input type="text"><br>
-  <button>Calcula desconto</button>
+  <label>Valor do produto:
+    <input type="text" id="valor">
+  </label>
+  <button onclick="desconto()">
+    Calcula desconto
+  </button>
 
+  <div id="precoFinal"></div>
 
 </div>
 <script>
 function desconto(){
-
+  // alert('chegou no desconto');
+  let valorInput = 
+    document.querySelector("#valor");
+  let desconto = valorInput.value * 0.9;
+  let precoDiv = document.querySelector("#precoFinal");
+  precoDiv.textContent = `R$ ${desconto}`;
 }
 function validar(){
   // alert("Validando os dados...");
