@@ -1,5 +1,5 @@
 # Desenvolvimento Web I
-- Site tutorial: https://fscheidt.github.io/site
+- Site com exemplos e [Slides](https://fscheidt.github.io/site/#slides) aulas: https://fscheidt.github.io/site
 - Moodle (fazer inscrição): https://ava.ifpr.edu.br/enrol/index.php?id=8670
 
 ## Sábados letivos:
