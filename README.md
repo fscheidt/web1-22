@@ -1,6 +1,6 @@
 # Desenvolvimento Web I
-- Site com exemplos e [Slides](https://fscheidt.github.io/site/#slides) aulas: https://fscheidt.github.io/site
-- Moodle (fazer inscrição): https://ava.ifpr.edu.br/enrol/index.php?id=8670
+- Site com exemplos e [Slides](https://fscheidt.github.io/site/#slides) aulas ➭ https://fscheidt.github.io/site
+- [Moodle](https://ava.ifpr.edu.br/course/view.php?id=8670) (envio atividades)
 
 ## Sábados letivos:
 <details>
@@ -16,13 +16,22 @@ Atividades assíncronas:
 ## Ambiente de desenvolvimento
 
 ### Editor
-- Visual studio code
+- [Visual studio code](https://code.visualstudio.com/)
 
 ### Navegadores recomendados
+Qualquer navegador web é capaz de executar os exemplos vistos em aula. Entretanto recomenda-se usar:
 - Firefox
 - Chromium (Chrome, Brave)
 
-### Rodar o linux (máquina virtual)
-Para executar o Linux como máquina virtual dentro do Windows, existem as seguintes opções:
-1. Instalar: Virtual Box
-1. WSL (nativo do windows)
+### Sistema operacional
+Recomendado usar [Linux](https://pt.wikipedia.org/wiki/Linux):
+- Distribuição usada no lab do IFPR: [Ubuntu](https://ubuntu.com/download/desktop)
+
+Outras distros (mais leve)
+- [Mint](https://linuxmint.com/)
+
+Quem depende do Windows, é possível instalar/executar o Linux como máquina virtual. Há duas opções:
+1. Executar no [Virtual Box](https://www.virtualbox.org/)
+1. Executar no WSL (nativo do windows)
+
+Quem dispõe de espaço em disco, pode instalar o Linux junto com o Windows fazendo dual boot.
