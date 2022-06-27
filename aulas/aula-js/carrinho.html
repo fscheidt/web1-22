@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrinho</title>
+  <style>
+    .fim{
+      background-color: lightgreen;
+    }
+  </style>
+</head>
+<body>
+<h1>Carrinho</h1>
+
+<div>
+  <label>Valor:
+    <input type="text" id="valor" title="Valor total">
+  </label>
+  <label>Quantidade:
+    <input type="text" id="quant" value="1"> 
+  </label>
+
+  <span id="total">R$0.00</span>
+
+</div>
+<script>
+
+var vInput = document.querySelector("#valor");
+vInput.addEventListener('keyup',function(){
+  calculaTotal();
+});
+
+var vQuant = document.querySelector("#quant");
+vQuant.addEventListener('keyup',function(){
+  calculaTotal();
+});
+
+function calculaTotal(){
+ // (1) declarar variaveis
+ // querySelector retorn um HTMLElement (tag)
+  let valor = document.querySelector("#valor");
+  let quant = document.querySelector("#quant");
+  let spanTotal = document.querySelector("#total");
+
+  // calcula o total e salva numa var 'total' (float)
+  let total = valor.value * quant.value;
+
+   // no caso da <span> usar o textContent
+  spanTotal.textContent = `R$ ${total.toFixed(2)}`;
+
+  // adicionamento uma classe CSS a tag span com JS
+  spanTotal.classList = 'fim';
+
+}
+
+</script>
+</body>
+</html>
