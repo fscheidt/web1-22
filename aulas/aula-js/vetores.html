@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!--
+    Vetores no Javascript:
+    - O que são vetores == array
+    - Como declarar um vetor
+    - Como iterar/percorrer o vetor
+
+    Vetores são listas, usados para
+    agrupar valores.
+
+    Exemplo, armazenar as compras do 
+    supermercado:
+    Leite, tomate, sardinha
+
+   // possivel forma de armazenar os 
+   // valores, usando string:
+   let compras = "Leite, tomate, sardinha";
+   
+   // pode representar melhor usando vetor:
+   let compras = ["Leite", "tomate", "sardinha"];
+
+   // vetor é um objeto, que possui propriedades
+   // e métodos, exemplo:
+   
+   // length: retorna o tamanho do vetor 
+   // (quantidade de itens)
+   compras.length 
+
+  -->
+<script>
+let compras = ["Leite", "Tomate", "Sardinha"];
+
+console.log(`Tamanho do vetor: ${compras.length}`);
+
+console.log(`Primeiro item: ${compras[0]}`);
+console.log(`Segundo item: ${compras[1]}`);
+console.log(`Terceiro item: ${compras[2]}`);
+
+// sort - ordena os itens do vetor
+console.log(compras.sort());
+
+let valores = [7, 15, 3];
+
+let total = valores[0] + valores[1] + valores[2];
+
+console.log(`Valor total: ${total}`);
+
+valores = [10, 2, 30, 4, 5, 6, 70];
+console.log(valores.length); // 7
+// calcular o total de uma quantidade de 
+// itens desconhecida...
+console.log("===Percorrendo o vetor===");
+let novoTotal = 0;
+for(let i=0; i < valores.length; i++){
+  // valores = [10, 2, 30, 4, 5, 6, 70];
+  // i é uma variavel, que inicia em 0
+  // e deve ser incrementa de 1 em 1
+  console.log(valores[i]);
+  console.log(`posicao: ${i} - valor: ${valores[i]}`);
+  novoTotal = valores[i] + novoTotal;
+}
+console.log(`Valor total: ${novoTotal}`);
+
+
+
+</script>
+  
+</body>
+</html>
